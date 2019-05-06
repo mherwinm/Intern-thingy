@@ -1,0 +1,160 @@
+body {
+    background-color: white;
+}
+
+div {
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+h1 {
+    margin-left: 70px;
+}
+
+h2, pre {
+    text-align: center;
+}
+
+
+.header h2 {
+   float: right;
+   margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.home-site-ad p {
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+ul li {
+    float: left;
+    margin-left: 100px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+ul li:hover {
+    background-color: black;
+}
+
+.header{
+    background-image: url('header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position-x: 50%;
+    width:100%; 
+
+}
+
+.navbar {
+    font-size: 23px;
+    background-color: rgb(7,118,210);
+    opacity:.7;
+    padding: 15px;
+    width:100%;
+}
+
+.navbar .searchbox {
+    border-radius: 20px;
+    margin-left: 500px;
+}
+
+.site-news {
+    grid-area: site-news;
+    background-color: rgb(50,160,250);
+    width: 24%;
+    height: 370px;
+}
+
+.home-site-ad {
+    background-image: url('site-ad-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 370px;
+}
+
+.user-custom {
+    width: 24.9%;
+}
+
+
+.main-article {
+    width: 24%;
+    background-color: #BBBBBB;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.sidebar {
+    width: 24%;
+}
+
+.site-offers {
+    width: 24.9%;
+}
+
+
+.company-about {
+    width: 50%;
+    margin-left: 24%;
+}
+
+.footer {
+    width: 100%;
+    margin: 0px;
+}
+
+.button {
+    background-color : rgb(7,118,230);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-custom, .site-offers, .footer {
+    background-color: white;
+}
+
+p {
+    text-align: justify;
+    padding: 13px;
+}
+
+
+.home-site-ad p {
+    margin-top:300px;
+}
+
+.disp-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.comp-photo {
+    float: right;
+    padding: 10px;
+}
